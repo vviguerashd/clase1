@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: red;
+    background-color: lightgray;
+}
+
+body{
+    color: rgb(170, 0, 255);
+
+}
+
+/* p{
+    color: red;
+} */
+
+h1{
+    color: blue;
+    font-size: 42px;
+    margin-bottom: 52px;
+    text-align: center;
+    font-family: "molle";
+}
+
+button{
+    width: 290px;
+    height: 90px;
+}
+
+button:hover{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    color: blue;
+}
+
+img{
+    width: 70px;
+    padding: 0% 40%;
+    /* Cuando en las propiedades de box model solo uso dos propiedades, la primera corresponde
+    a top y bottom (0%) y la segunda corresponde a right y left (40%) */
+}
+
+.memorias{
+    background-color: #0f174f;
+    color: white;
+    width: 400px;
+    height: 600px;
+    border: groove 6px cyan ;
+    padding: 40px;
+    /* margin: 20px; */
+
+}
+
+#fecha_especial{
+    color: rgb(0, 255, 47);
+    border: solid 6px rgb(255, 0, 0) ;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+#tarjetas_ejercicio{
+    margin: 0 15%;
+    /* background-color: red; */
+}
+
+.ejercicio{
+    width: 400px;
+    height: 460px;
+    background-color: #0f174f;
+    color: white;
+    display: inline-block;
+    border-radius: 5%;
+    margin: 20px 8px;
+    padding: 32px 24px;
+    box-sizing: border-box;
+}
+
+.ejercicio h3{
+    font-size: 60px;
+}
+
+.ejercicio ul{
+    padding-left: 28px;
+    margin: 20px 0px;
+}
+
+.ejercicio button{
+    background-color: #0f174f;
+    border: solid 2px white;
+    color: white;
+    width: 120px;
+    height: 58px;
+    margin-top: 110px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#superstar{
+    font-size: 40px;
+    background-color: aqua;
+    color: chocolate;
+
+}
+
+.molle-regular-italic {
+  font-family: "Molle", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+div{
+    width: 1120px;
+    height: 240px;
+    background-color: blueviolet;
+}
+
+/* bandera de Rusia */
+
+#blanco{
+    background-color: white;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#rojo{
+    background-color: red;
+}
+
+/* bandera de Paises Bajos */
+
+#blanco_1{
+    background-color: white;
+    position: relative;
+    top: 240px;
+}
+
+#azul_1{
+    background-color: blue;
+    position: relative;
+    top: 240px;
+}
+
+#rojo_1{
+    background-color: red;
+    position: relative;
+    bottom: 480px;
+}
+
+/* bandera de México */
+
+#mexico{
+    width: 1120px;
+    height: 240px;
+}
+
+#mexico div{
+    width: 1120px;
+    height: 240px;
+
+}
+
+#verde{
+    background-color: rgb(10, 92, 34);
+}
+
+#blanco_2{
+    background-color: rgb(255, 255, 255);
+}
+
+#rojo_2{
+    background-color: red;
+}
+
+#escudo{
+
+}
