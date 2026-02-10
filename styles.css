@@ -160,15 +160,16 @@ div{
 
 /* bandera de México */
 
-#mexico{
+#bandera_mexico{
     width: 1120px;
-    height: 240px;
+    height: 720px;
+    /* border: solid 5px black; */
+    position: absolute;
 }
 
-#mexico div{
-    width: 1120px;
-    height: 240px;
-
+#bandera_mexico div{
+    width: 33.33%;
+    height: 720px;
 }
 
 #verde{
@@ -177,12 +178,22 @@ div{
 
 #blanco_2{
     background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;    
+    left: 373.3px;
 }
 
 #rojo_2{
     background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 746.66px;
+
 }
 
 #escudo{
-
+    position: absolute;
+    top: 320px;
+    left: 73.3px;
+    scale: 3.5;
 }
